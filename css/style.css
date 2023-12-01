@@ -16,27 +16,30 @@ a {
 }
 /* CLASSES*/
 
-.nav-list {
+.list {
   list-style: none;
-  list-style-type: none;
 }
 
 .logo-first-colour {
   color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
-  line-height: 116.667%;
+  line-height: 117%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  font-weight: 800px;
+  font-family: var(--text-font-logo);
 }
 
 .logo-second-colour-header {
   color: #2e2f42;
   font-size: 18px;
   font-style: normal;
-  line-height: 116.667%;
+  line-height: 117%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  font-weight: 800px;
+  font-family: var(--text-font-logo);
 }
 
 .logo-second-colour-footer {
