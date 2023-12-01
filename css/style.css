@@ -1,14 +1,13 @@
 :root {
   --text-font-family: "Roboto", sans-serif;
   --text-font-logo: "Raleway", sans-serif;
-  --background-color-page: "#FFFFFFFF";
 }
 
 /*Setting up the font for the entire page */
 body {
   font-family: var(--text-font-family);
   color: #434455;
-  background-color: var(--background-color-page);
+  background-color: #ffffffff;
 }
 
 a {
@@ -25,7 +24,7 @@ a {
   font-size: 18px;
   font-style: normal;
   line-height: 117%;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: 800px;
   font-family: var(--text-font-logo);
@@ -36,7 +35,7 @@ a {
   font-size: 18px;
   font-style: normal;
   line-height: 117%;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: 800px;
   font-family: var(--text-font-logo);
@@ -46,9 +45,10 @@ a {
   color: #f4f4fd;
   font-size: 18px;
   font-style: normal;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 800px;
 }
 
 .hero-content {
