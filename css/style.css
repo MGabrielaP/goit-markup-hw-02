@@ -50,7 +50,6 @@ body {
 
 .hero-button {
   background-color: var(--logo-blue-color);
-  font-family: var(--text-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
