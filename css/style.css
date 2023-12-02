@@ -40,7 +40,7 @@ body {
 
 .hero-title {
   font-size: 56px;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 1.12px;
   color: var(--background-page-color);
@@ -53,11 +53,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--background-page-color);
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*.logo-first-color -> FOLOSIT*/
