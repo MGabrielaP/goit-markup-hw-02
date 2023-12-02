@@ -6,6 +6,7 @@
   --button-background-color: #f4f4fd;
   --text-site-colour: #2e2f42;
   --images-text: #434455;
+  --background-color-hero: #2e2f42;
 }
 
 /*Setting up the font for the entire page */
@@ -32,6 +33,37 @@ a {
 
 .link:hover,
 .link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.hero-section {
+  background-color: var(--background-color-hero);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
   color: #404bbf;
 }
 
@@ -88,9 +120,6 @@ a {
 }
 
 /* Classes for Body */
-.hero-content {
-  background-color: "#2E2F42";
-}
 
 .contacts {
   color: #434455;
