@@ -113,7 +113,9 @@ body {
   text-decoration: none;
 }
 
-.nav-header:hover,
+.nav-header:hover {
+  color: #404bbf;
+}
 .nav-header:focus {
   color: #404bbf;
 }
