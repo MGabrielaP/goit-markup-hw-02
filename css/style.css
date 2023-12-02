@@ -154,9 +154,8 @@ body {
 }
 
 .images-index-our-team {
-  background: #ffffff;
+  background-color: #ffffffff;
   justify-content: center;
-  background: var(--background-page-color);
 }
 .images-title-index {
   font-weight: 500;
@@ -174,6 +173,16 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--address-text-color);
+}
+
+.section-titles-index {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--logo-titles-color);
 }
 
 /* Classes for PORTFOLIO Page */
