@@ -1,6 +1,4 @@
 :root {
-  --text-font-family: "Roboto", sans-serif;
-  --text-font-logo: "Raleway", sans-serif;
   --logo-blue-color: #4d5ae5;
   --logo-buttons-sectionfour-index-background-color: #f4f4fd;
   --text-site-colour: #2e2f42;
@@ -11,7 +9,7 @@
 
 /*Setting up the font for the entire page */
 body {
-  font-family: var(--text-font-family);
+  font-family: "Roboto", sans-serif;
   color: var(--address-text-color);
   background-color: var(--background-page-color);
 }
@@ -62,31 +60,32 @@ body {
   color: #404bbf;
 }
 
+/*.logo-first-color -> FOLOSIT*/
 .logo-first-colour {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.54em;
+  letter-spacing: 0.54px;
   color: var(--logo-blue-color);
-  font-style: var(--text-font-logo);
+  font-style: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
 .logo-second-colour-header {
   color: var(--logo-titles-color);
   font-size: 18px;
-  font-style: var(--text-font-logo);
+  font-style: "Raleway", sans-serif;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-weight: 800px;
-  font-family: var(--text-font-logo);
+  font-family: "Raleway", sans-serif;
 }
 
 .logo-second-colour-footer {
   color: var(--logo-buttons-sectionfour-index-background-color);
   font-size: 18px;
-  font-style: var(--text-font-logo);
+  font-style: "Raleway", sans-serif;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
