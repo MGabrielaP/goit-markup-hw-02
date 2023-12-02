@@ -143,10 +143,6 @@ a {
 }
 
 /* Classes for PORTFOLIO Page */
-.images-portfolio {
-  flex-shrink: 0;
-  width: 360;
-}
 
 .footer-text {
   color: #f4f4fd;
