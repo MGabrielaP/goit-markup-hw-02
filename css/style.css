@@ -136,6 +136,11 @@ body {
   color: #ffffffff;
 }
 
+.buttons-nav:focus {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffffff;
+}
 .pointer {
   cursor: pointer;
 }
@@ -147,6 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  font-family: "Roboto", sans-serif;
   background-color: var(--logo-buttons-sectionfour-index-background-color);
 }
 
