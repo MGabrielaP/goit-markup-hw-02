@@ -68,12 +68,12 @@ a {
 }
 
 .logo-first-colour {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-site-colour);
-
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  font-style: var(--text-font-logo);
   text-transform: uppercase;
 }
 
