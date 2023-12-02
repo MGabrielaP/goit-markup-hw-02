@@ -2,6 +2,8 @@
   --text-font-family: "Roboto", sans-serif;
   --text-font-logo: "Raleway", sans-serif;
   --logo-color: #4d5ae5;
+  --button-text-color: #4d5ae5;
+  --button-background-color: #f4f4fd;
 }
 
 /*Setting up the font for the entire page */
@@ -15,6 +17,8 @@ a {
   text-decoration: none;
 }
 /* CLASSES*/
+
+/*Settings for Header */
 
 .list {
   list-style: none;
@@ -55,17 +59,17 @@ a {
   text-transform: uppercase;
   font-weight: 800px;
 }
-
-.hero-content {
-  background-color: "#2E2F42";
-}
-
 .nav-section {
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+/* Settings for Body */
+.hero-content {
+  background-color: "#2E2F42";
 }
 
 .contacts {
@@ -79,12 +83,21 @@ a {
 .buttons-nav:hover {
   background-color: #404bbf;
   border: none;
-  color: #ffffff;
+  color: #ffffffff;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .buttons-text {
-  color: #4d5ae5;
+  color: var(--button-text-color);
   border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--button-background-color);
 }
 
 .section4-background {
