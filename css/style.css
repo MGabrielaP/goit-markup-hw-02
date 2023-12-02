@@ -149,14 +149,10 @@ body {
 }
 
 /* Classes for INDEX page*/
-.section4-background {
+.section-four-background {
   background-color: var(--logo-buttons-sectionfour-index-background-color);
 }
 
-.images-index-our-team {
-  background-color: #ffffffff;
-  justify-content: center;
-}
 .images-title-index {
   font-weight: 500;
   font-size: 20px;
@@ -164,6 +160,7 @@ body {
   letter-spacing: 0.4px;
   color: var(--logo-titles-color);
   font-style: normal;
+  background-color: #ffffffff;
 }
 
 .images-text-index {
