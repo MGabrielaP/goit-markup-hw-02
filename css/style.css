@@ -95,16 +95,6 @@ body {
 
 /*Classes common to ALL the pages*/
 
-.images-title {
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-  color: var(--logo-titles-color);
-}
-
 .images-text {
   color: var(--address-text-color);
   font-size: 16px;
@@ -168,6 +158,14 @@ body {
   justify-content: center;
   background: var(--background-page-color);
 }
+.images-title-index {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--logo-titles-color);
+  font-style: normal;
+}
 
 .images-text-index {
   text-align: center;
@@ -179,6 +177,16 @@ body {
 }
 
 /* Classes for PORTFOLIO Page */
+
+.images-title-Portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--logo-titles-color);
+  text-align: center;
+  font-style: normal;
+}
 
 .footer-text {
   color: #f4f4fd;
