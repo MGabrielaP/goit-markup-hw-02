@@ -67,7 +67,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--logo-blue-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
