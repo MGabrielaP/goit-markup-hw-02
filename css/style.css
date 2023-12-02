@@ -4,7 +4,7 @@
   --logo-color: #4d5ae5;
   --button-text-color: #4d5ae5;
   --button-background-color: #f4f4fd;
-  --index-apps: #2e2f42;
+  --text-site-colour: #2e2f42;
   --images-text: #434455;
 }
 
@@ -30,15 +30,18 @@ a {
   text-decoration: none;
 }
 
+.link:hover {
+  color: #404bbf;
+}
+
 .logo-first-colour {
-  color: var(--logo-color);
-  font-size: 18px;
-  font-style: var(--text-font-logo);
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-site-colour);
+
   text-transform: uppercase;
-  font-weight: 800px;
-  font-family: var(--text-font-logo);
 }
 
 .logo-second-colour-header {
@@ -77,7 +80,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--index-apps);
+  color: var(--s);
 }
 
 .images-text {
@@ -151,8 +154,4 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.link {
-  text-decoration: none;
 }
