@@ -4,6 +4,8 @@
   --logo-color: #4d5ae5;
   --button-text-color: #4d5ae5;
   --button-background-color: #f4f4fd;
+  --index-apps: #2e2f42;
+  --images-text: #434455;
 }
 
 /*Setting up the font for the entire page */
@@ -66,8 +68,28 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/*Classes common to ALL the pages*/
 
-/* Settings for Body */
+.images-title {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--index-apps);
+}
+
+.images-text {
+  color: var(--images-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Classes for Body */
 .hero-content {
   background-color: "#2E2F42";
 }
@@ -100,6 +122,7 @@ a {
   background-color: var(--button-background-color);
 }
 
+/* Classes for INDEX page*/
 .section4-background {
   background-color: #f4f4fd;
 }
@@ -108,15 +131,6 @@ a {
   background: #ffffff;
   justify-content: center;
   background: var(--WHITE, #fff);
-}
-
-.images-title-index {
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
 }
 
 .images-text-index {
@@ -128,26 +142,10 @@ a {
   letter-spacing: 0.32px;
 }
 
+/* Classes for PORTFOLIO Page */
 .images-portfolio {
   flex-shrink: 0;
-}
-
-.images-title-portfolio {
-  font-size: 20px;
-  font-style: normal;
-  line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: #2e2f42;
-}
-
-.images-text {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  width: 360;
 }
 
 .footer-text {
@@ -157,4 +155,8 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.link {
+  text-decoration: none;
 }
