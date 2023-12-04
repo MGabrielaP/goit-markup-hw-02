@@ -164,7 +164,7 @@ body {
 }
 
 .tempd {
-  font-variant: var(--background-page-color);
+  font-variant: #ffffffff;
 }
 .images-title-index {
   font-weight: 500;
