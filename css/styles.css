@@ -3,7 +3,7 @@
   --logo-buttons-sectionfour-index-background-color: #f4f4fd;
   --text-site-colour: #2e2f42;
   --logo-titles-color: #2e2f42;
-  --background-page-color: #fff;
+  --background-page-color: #ffffff;
   --address-text-color: #434455;
 }
 
@@ -163,6 +163,9 @@ body {
   background-color: var(--logo-buttons-sectionfour-index-background-color);
 }
 
+.tempd {
+  font-variant: var(--background-page-color);
+}
 .images-title-index {
   font-weight: 500;
   font-size: 20px;
